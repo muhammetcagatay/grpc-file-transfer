@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+option csharp_namespace = "gRPCFileTransportClient";
+
+package file;
+
+service FileService 
+{
+  rpc FileDownload (FileInfo) returns (stream BytesContent);
+  rpc FileUpload (stream BytesContent) returns (InfoMessage);
+}
+
+message FileInfo
+{
+	string fileName = 1;
+	string fileExtension = 2;
+
+}
+
+message BytesContent
+{
+	int64 fileSize = 1;
+	bytes buffer = 2;
+	int32 readedByte = 3;
+	FileInfo info = 4;
+}
+
+message InfoMessage
+{
+	string message = 1;
+}

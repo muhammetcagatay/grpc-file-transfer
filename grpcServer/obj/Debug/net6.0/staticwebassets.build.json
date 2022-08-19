@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "xMK512IbOXqtY34FAw7pGv88XKZCMmSMXvLilBGIMWM=",
+  "Source": "grpcServer",
+  "BasePath": "_content/grpcServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "grpcServer\\wwwroot",
+      "Source": "grpcServer",
+      "ContentRoot": "D:\\Projects\\.Net\\gRPC\\grpcServer\\wwwroot\\",
+      "BasePath": "_content/grpcServer",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Projects\\.Net\\gRPC\\grpcServer\\wwwroot\\files\\bkg-blu.jpg",
+      "SourceId": "grpcServer",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\.Net\\gRPC\\grpcServer\\wwwroot\\",
+      "BasePath": "_content/grpcServer",
+      "RelativePath": "files/bkg-blu.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\bkg-blu.jpg"
+    }
+  ]
+}

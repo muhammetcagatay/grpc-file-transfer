@@ -1,0 +1,2 @@
+obj\Debug\net6.0\Protos/FileTransport.cs \
+obj\Debug\net6.0\Protos/FileTransportGrpc.cs: Protos/fileTransport.proto
